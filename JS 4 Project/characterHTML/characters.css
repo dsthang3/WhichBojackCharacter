@@ -1,0 +1,180 @@
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.backButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background-color: rgb(254, 242, 173);
+    cursor: pointer;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General body styling */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+/* Title section styling */
+.title h1 {
+    text-align: center;
+    color: #333;
+    font-size: 70px;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 900px;
+    background: white;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.choice {
+    height: 380px;
+    background: white;
+    margin: 10px;
+    width: 50%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.choice:hover {
+    transition: transform .25s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.topHalf {
+    display: flex;
+    background-color: black;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.bottomHalf {
+    display: flex;
+    background-color: black;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.answerChoiceH1 {
+    padding-top: 130px;
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    /* delete colors */
+}
+
+.anotherOne {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftHalf {
+    width: 50%;
+    background-color: black;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.rightHalf {
+    width: 50%;
+    background-color: black;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.two {
+    height: 550px;
+}
+
+#two-one {
+    width: 95%;
+    background-color: white;
+}
+
+#two-two {
+    width: 95%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+#resultButton {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+#resultButton:hover {
+    cursor: pointer;
+    transition: transform .15s;
+    transform: scale(1.10);
+
+}
